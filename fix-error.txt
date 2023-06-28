@@ -1,0 +1,13 @@
+Exception: IOException java.io.IOException: Cleartext HTTP traffic to * not permitted
+at com.android.okhttp.HttpHandler$CleartextURLFilter.checkURLPermitted(HttpHandler.java:115)
+at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:458)
+at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:127)
+at com.android.generic.tasks.AbstractHttpAsyncTask.doConnection(AbstractHttpAsyncTask.java:207)
+at com.android.generic.tasks.AbstractHttpAsyncTask.extendedDoInBackground(AbstractHttpAsyncTask.java:102)
+at com.android.generic.tasks.AbstractAsyncTask.doInBackground(AbstractAsyncTask.java:88)
+at android.os.AsyncTask$2.call(AsyncTask.java:333)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:245)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+at java.lang.Thread.run(Thread.java:764)
