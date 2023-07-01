@@ -1,3 +1,7 @@
+/*
+The code originates from
+https://www.codequality.rocks/post/making-untestable-testable-again
+*/
 public partial class MainWindow : Window {
     public MainWindow() {
         InitializeComponent();

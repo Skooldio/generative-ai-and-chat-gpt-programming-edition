@@ -1,3 +1,7 @@
+/*
+The code originates from
+https://github.com/SvenTiigi/ValidatedPropertyKit/blob/main/Sources/Validation/Validation%2BComparable.swift
+*/
 import Foundation
 
 public extension Validation where Value: Comparable {

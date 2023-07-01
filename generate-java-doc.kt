@@ -1,3 +1,7 @@
+/*
+The code originates from
+https://github.com/Skooldio/android-fundamentals-for-basic-app-development-pomodoro/blob/get-started/app/src/main/java/com/skooldio/android/fundamentals/workshop/pomodoro/data/PomodoroCounter.kt
+*/
 class PomodoroCounter {
     private var workDuration: Int = PomodoroConfig.WORK_DURATION_DEFAULT
     private var shortBreakDuration: Int = PomodoroConfig.SHORT_BREAK_DURATION_DEFAULT
